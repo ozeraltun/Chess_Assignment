@@ -14,7 +14,7 @@ int main(int argc, char** argv) {
   std::cout << "Beyaz = " << myChessTable->calculateForColor(Color::white) << std::endl;
   std::cout << std::endl;
 
-  //std::cout << "Printing threat map: " << std::endl;
-  //myChessTable->printThreatMap();
+  std::cout << "Printing threat map: " << std::endl;
+  myChessTable->printThreatMap();
   return 0;
 }
